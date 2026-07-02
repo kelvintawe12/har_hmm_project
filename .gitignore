@@ -1,0 +1,45 @@
+# OS / Editors
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Thumbs.db
+
+.vscode/
+.idea/
+*.swp
+*.swo
+*.swn
+*.log
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyd
+*.so
+*.egg-info/
+dist/
+build/
+*.egg
+.eggs/
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual envs (common)
+.venv/
+venv/
+ENV/
+env/
+
+# Jupyter / notebooks runtime artifacts
+.ipynb_checkpoints/
+
+# # Data & generated reports
+# data/
+# reports/
