@@ -29,10 +29,14 @@ This document summarizes the repository’s directory layout.
 │   │   │       ├── walking1-<timestamp>/
 │   │   │       └── ...
 │   │   └── test/
-│   │       ├── test-jumping-<timestamp>/
-│   │       ├── test-standing-<timestamp>/
-│   │       ├── test-still01-<timestamp>/
-│   │       └── test-walking-<timestamp>/
+│   │       ├── jumping/
+│   │       │   └── test-jumping-<timestamp>/
+│   │       ├── standing/
+│   │       │   └── test-standing-<timestamp>/
+│   │       ├── still/
+│   │       │   └── test-still01-<timestamp>/
+│   │       └── walking/
+│   │           └── test-walking-<timestamp>/
 │   └── processed/
 ├── notebooks/
 │   └── HAR_HMM_pipeline.ipynb
